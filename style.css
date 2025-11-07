@@ -1,0 +1,40 @@
+/* general */
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+/* nav */
+.nav-link:hover {
+  color: red !important;
+  padding: 5px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar-brand:hover {
+  color: white !important;
+  padding: 5px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+/* header */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container-header {
+  background-image: url(media/header.png);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 100px 20px;
+  border-radius: 10px;
+}
